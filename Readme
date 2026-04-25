@@ -1,0 +1,30 @@
+# Portafolio Web - Angie Beltrán
+
+## 📖 Descripción
+Este proyecto es un portafolio personal desarrollado con **HTML, CSS y Bootstrap**.  
+Su objetivo es mostrar mis habilidades en **Front-End** y **Proyectos realizados en php y mysql**, además de presentar mis proyectos y ofrecer un medio de contacto.
+
+## 🎨 Características principales
+- Diseño minimalista con paleta blanca y azul naranja.
+
+
+## 🛠️ Tecnologías utilizadas
+- **HTML5** para la estructura.
+- **CSS3** para estilos personalizados.
+- **Bootstrap** para diseño responsive y componentes.
+- Íconos de **Bootstrap Icons**.
+
+## 📂 Portafolio web
+- `index.html` → Página principal con todas las secciones.
+- `style.css` → Estilos personalizados.
+- `Img/` → Carpeta con logos y recursos visuales.
+- `Readme/` Explicacion del proyecto.
+
+## 📂 Portafolio web
+# Aparecen las capturas de mis proyectos hechos en lenguaje php Mysql y Html
+con imagenes de cada proyecto 
+# La imagen del Modboard como se pide el ejercicio
+
+
+## 🚀 Cómo visualizar
+1. El repositorio esta en el link de github
