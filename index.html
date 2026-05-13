@@ -4,21 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio Angie Beltrán</title>
-  <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-  <!-- Estilos personalizados -->
-  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#">AB</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link fw-bold" href="#about">Acerca de mí</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold" href="#habilidades">Habilidades</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold" href="#projects">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link fw-bold" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
   <!-- Header -->
-  <header class="bg-light text-center py-5">
-    <div class="logo fw-bold fs-2 text-primary">AB</div>
-    <h1 class="fw-bold">Angie Beltrán</h1>
-    <h2 class="text-secondary">Desarrolladora Web | Front-End</h2>
-    <p class="fst-italic text-muted">Diseño soluciones innovadoras atractivas para cada proyecto</p>
-  </header>
+<header class="text-center py-5 mt-5" id="hero">
+  <h2>Desarrolladora Web | Front-End</h2>
+  <p class="fst-italic">Diseño soluciones innovadoras atractivas para cada proyecto</p>
+</header>
+
 
   <!-- Acerca de mí -->
   <section id="about" class="container py-5">
@@ -30,58 +49,159 @@
     </p>
   </section>
 
-  <!-- Habilidades -->
-  <section id="skills" class="bg-light py-5">
-    <div class="container text-center">
-      <h3 class="text-primary fw-bold mb-4">Habilidades</h3>
-      <div class="d-flex flex-wrap justify-content-center gap-3">
-        <span class="badge bg-primary">JavaScript</span>
-        <span class="badge bg-primary">HTML</span>
-        <span class="badge bg-primary">CSS</span>
-        <span class="badge bg-primary">PHP</span>
-        <span class="badge bg-primary">Bootstrap</span>
-        <span class="badge bg-primary">Python</span>
+
+ <!-- Habilidades -->
+<section id="habilidades" class="bg-light py-5">
+  <div class="container text-center">
+    <h3 class="text-primary fw-bold mb-4">Habilidades</h3>
+    <div class="d-flex flex-wrap justify-content-center gap-5 align-items-center">
+      <div class="habilidad">
+        <img src="Img/JavaScript.jpg" alt="JavaScript">
+        <p class="fw-bold mt-2">JavaScript</p>
+      </div>
+      <div class="habilidad">
+        <img src="Img/Html.jpg" alt="HTML">
+        <p class="fw-bold mt-2">HTML</p>
+      </div>
+      <div class="habilidad">
+        <img src="Img/Css.webp" alt="CSS">
+        <p class="fw-bold mt-2">CSS</p>
+      </div>
+      <div class="habilidad">
+        <img src="Img/Php.png" alt="PHP">
+        <p class="fw-bold mt-2">PHP</p>
+      </div>
+      <div class="habilidad">
+        <img src="Img/Boostrap.png" alt="Bootstrap">
+        <p class="fw-bold mt-2">Bootstrap</p>
+      </div>
+      <div class="habilidad">
+        <img src="Img/Python.jpg" alt="Python">
+        <p class="fw-bold mt-2">Python</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Proyectos -->
-  <section id="projects" class="container py-5">
-    <h3 class="text-primary fw-bold mb-4 text-center">Proyectos</h3>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Proyecto 1</h5>
-            <p class="card-text">Descripción breve del proyecto.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Proyecto 2</h5>
-            <p class="card-text">Descripción breve del proyecto.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card shadow-sm">
-          <div class="card-body">
-            <h5 class="card-title">Proyecto 3</h5>
-            <p class="card-text">Descripción breve del proyecto.</p>
-          </div>
+<!-- Proyectos -->
+<section id="projects" class="container py-5">
+  <h3 class="text-primary fw-bold mb-4 text-center">Proyectos</h3>
+  <div class="row g-4">
+    
+    <!-- Proyecto 1 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="Img/Proyecto 1.png" class="card-img-top" alt="Proyecto 1">
+        <div class="card-body text-center">
+          <h5 class="card-title">Proyecto 1</h5>
+          <p class="card-text">Descripción breve del proyecto.</p>
+          <a href="https://github.com/LuisERodriguezPa/Style-Factory" target="_blank" class="btn btn-dark me-2">GitHub</a>
+          <a href="https://usuario.github.io/proyecto1" target="_blank" class="btn btn-primary">Demo</a>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="bg-light text-center py-3">
-    <p class="text-muted">© 2026 Angie Beltrán – Front-End Developer</p>
-  </footer>
+    <!-- Proyecto 2 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="Img/Proyecto 2.png" class="card-img-top" alt="Tienda Deportiva">
+        <div class="card-body text-center">
+          <h5 class="card-title">Hackaton Tienda Online 2</h5>
+          <p class="card-text">Descripción breve del proyecto.</p>
+          <a href="https://github.com/marcelaW40k/HackathonTiendaOnline" target="_blank" class="btn btn-dark me-2">GitHub</a>
+          <a href="https://e-commerce-volt.vercel.app/" target="_blank" class="btn btn-primary">Demo</a>
+        </div>
+      </div>
+    </div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+    <!-- Proyecto 3 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="Img/Proyecto 3.png" class="card-img-top" alt="Proyecto 3">
+        <div class="card-body text-center">
+          <h5 class="card-title">Carrito de Compras</h5>
+          <p class="card-text">Descripción breve del proyecto.</p>
+          <a href="https://github.com/angiebel26/Lab-Carrito-de-compras" target="_blank" class="btn btn-dark me-2">GitHub</a>
+          <a href="https://angiebel26.github.io/Lab-Carrito-de-compras/" target="_blank" class="btn btn-primary">Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyecto 4 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="Img/Proyecto 4.png" class="card-img-top" alt="Proyecto 4">
+        <div class="card-body text-center">
+          <h5 class="card-title">Proyecto 4</h5>
+          <p class="card-text">Descripción breve del proyecto.</p>
+          <a href="https://github.com/QuiryatM/Lab-NASA" target="_blank" class="btn btn-dark me-2">GitHub</a>
+          <a href="https://usuario.github.io/proyecto4" target="_blank" class="btn btn-primary">Demo</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyecto 5 -->
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <img src="Img/Proyecto 5.png" class="card-img-top" alt="Proyecto 5">
+        <div class="card-body text-center">
+          <h5 class="card-title">Proyecto 5</h5>
+          <p class="card-text">Descripción breve del proyecto.</p>
+          <a href="https://github.com/0ctapod/Lab-refactorizacion-blog-equipo11" target="_blank" class="btn btn-dark me-2">GitHub</a>
+          <a href="https://usuario.github.io/proyecto5" target="_blank" class="btn btn-primary">Demo</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Reflexión -->
+<section id="reflection" class="container py-5">
+  <h3 class="text-primary fw-bold mb-3">Reflexión de mi camino como desarrolladora Java</h3>
+  <p class="lead">
+    Comencé mi camino en la programación por curiosidad como un nuevo reto y hoy es mi pasión. 
+    He enfrentado muchos retos, desde entender cómo estructurar código hasta crear soluciones completas que impacten a los usuarios.
+    Cada proyecto me enseña algo nuevo y me permite crecer como persona a no rendirme sino seguir intentando hasta lograrlo.
+    Mi meta es seguir mejorando, aplicando buenas prácticas y explorando nuevas tecnologías para construir software eficiente y atractivo.
+  </p>
+</section>
+
+ 
+<!-- Contacto -->
+<section id="contact" class="py-5 text-center">
+  <h3 class="fw-bold mb-4">Contacto</h3>
+  <a href="../Portafolio-web-Angie-Beltran-main/Hoja de Vida Angie Beltran.pdf" download class="btn btn-outline-dark mb-3">
+    Descargar Hoja de Vida
+  </a>
+  <p class="fw-bold">Desarrollado por Angie Valeria Beltrán Reyes</p>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-light py-3">
+  <div class="container d-flex justify-content-center align-items-center gap-3">
+    <!-- Nombre -->
+    <p class="text-muted mb-0 fw-bold">Desarrollado por Angie Valeria Beltrán Reyes</p>
+    
+   <!-- Redes Sociales --> 
+    <a href="https://github.com/angiebel26" target="_blank" class="text-dark">
+      <i class="bi bi-github fs-4"></i>
+    </a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=angievaleriabeltranreyes4@gmail.com" target="_blank">
+    <i class="bi bi-envelope-fill fs-4"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/angie-valeria-beltran-fronted-developer/" target="_blank" class="text-dark">
+      <i class="bi bi-linkedin fs-4"></i>
+    </a>
+  </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+

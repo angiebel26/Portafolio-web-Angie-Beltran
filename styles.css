@@ -1,0 +1,153 @@
+/* Estilos Boostrap */
+:root {
+  --azul: #0D6EFD;
+  --blanco: #FFFFFF;
+}
+
+
+body {
+  font-family: 'Poppins', 'Times New Roman', serif;
+  background-color: var(--blanco);
+  color: #333;
+  scroll-behavior: smooth;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--blanco);
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--azul);
+}
+.navbar-toggler {
+  border: none;
+}
+.nav-link {
+  color: var(--azul);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #084298;
+}
+
+
+/* Header */
+#hero {
+  background-color: #0D6EFD; 
+  color: #FFFFFF;            
+  padding: 80px 0;
+}
+#hero h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+#hero p {
+  color: #e6e6e6; 
+  font-style: italic;
+}
+
+
+/* Secciones */
+section {
+  padding: 60px 0;
+}
+h3 {
+  color: var(--azul);
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Habilidades */
+.habilidad img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+.habilidad img:hover {
+  transform: scale(1.1);
+}
+
+/* Proyectos */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+.card-title {
+  color: var(--azul);
+  font-weight: 600;
+}
+.btn-dark, .btn-primary {
+  border-radius: 20px;
+}
+.btn-primary {
+  background-color: var(--azul);
+  border-color: var(--azul);
+}
+.btn-primary:hover {
+  background-color: #084298;
+  border-color: #084298;
+}
+
+#reflection {
+  background-color: #ffffff;
+  color: #333;
+  padding: 60px 0;
+  border-top: 5px solid var(--azul); /* separador azul */
+}
+#reflection h3 {
+  color: var(--azul);
+  font-weight: 700;
+}
+
+
+/* Contacto */
+#contact {
+  background-color: #0D6EFD; 
+  color: #FFFFFF;            
+  width: 100%;               
+}
+#contact h3 {
+  color: #FFFFFF;
+}
+#contact a.btn-outline-dark {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+#contact a.btn-outline-dark:hover {
+  background-color: #FFFFFF;
+  color: #0D6EFD;
+}
+
+
+/* Footer */
+footer {
+  background-color: #0D6EFD; 
+  color: #FFFFFF;            
+  width: 100%;               
+}
+footer p {
+  margin: 0;
+  font-weight: 500;
+}
+footer a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+footer a:hover {
+  color: #000000; 
+  transform: scale(1.2);
+}
+footer i {
+  vertical-align: middle;
+  font-size: 1.5rem;
+}
